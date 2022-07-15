@@ -40,7 +40,6 @@ function update(req, res, next) {
 
   const updatedDish = res.locals.dish;
 
-  updatedDish.id = dishId;
   updatedDish.name = name;
   updatedDish.description = description;
   updatedDish.price = price;

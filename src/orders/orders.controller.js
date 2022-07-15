@@ -48,7 +48,6 @@ function update(req, res, next) {
     });
   }
 
-  updatedOrder.id = orderId;
   updatedOrder.deliverTo = deliverTo;
   updatedOrder.mobileNumber = mobileNumber;
   updatedOrder.status = status;

@@ -34,21 +34,4 @@ module.exports = [
       },
     ],
   },
-  {
-    id: "e8cac8129f702a8a31bfca5b30b9f624",
-    deliverTo: "deez nuts",
-    mobileNumber: "(202) 456-1111",
-    status: "invalid",
-    dishes: [
-      {
-        id: "90c3d873684bf381dfab29034b5bba73",
-        name: "Falafel and tahini bagel",
-        description: "A warm bagel filled with falafel and tahini",
-        image_url:
-          "https://images.pexels.com/photos/4560606/pexels-photo-4560606.jpeg?h=530&w=350",
-        price: 6,
-        quantity: 1,
-      },
-    ],
-  },
 ];
