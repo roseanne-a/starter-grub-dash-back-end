@@ -1,3 +1,4 @@
+//validate that every property has been assigned
 function bodyHasProperty(item, property) {
   const statuses = ["pending", "preparing", "out-for-delivery", "delivered"];
   return function (req, res, next) {

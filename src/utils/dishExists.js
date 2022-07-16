@@ -1,6 +1,7 @@
 const path = require("path");
 const dishes = require(path.resolve("src/data/dishes-data"));
 
+//check if the dish exists, if not return an error
 function dishExists(req, res, next) {
   const { dishId } = req.params;
   const foundDish = dishes.find((dish) => dish.id === dishId);

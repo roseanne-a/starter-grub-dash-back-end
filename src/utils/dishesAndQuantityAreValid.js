@@ -1,3 +1,6 @@
+//because quantity is dependant on dishes, check that both are valid
+//in one function
+
 function dishesAndQuantityAreValid(req, res, next) {
   const { data: { dishes } = {} } = req.body;
   if (!Array.isArray(dishes) || dishes.length === 0) {
